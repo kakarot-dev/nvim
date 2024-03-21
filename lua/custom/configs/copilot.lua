@@ -19,12 +19,12 @@ local options = {
     auto_trigger = true,
     debounce = 75,
     keymap = {
-      accept = "<leader><CR>",
+      accept = "<C-e>",
       accept_word = false,
       accept_line = false,
       next = "<M-]>",
       prev = "<M-[>",
-      dismiss = "<C-e>",
+      dismiss = "<C-m>",
     },
   },
   filetypes = {
