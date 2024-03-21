@@ -38,10 +38,6 @@ M.projects = {
       "<cmd> ProjectMgr<CR>",
       "Open project manager",
     },
-  },
-}
-M.conform = {
-  n = {
     ["<leader>bf"] = {
       function()
         require("conform").format { async = true, lsp_fallback = true }
