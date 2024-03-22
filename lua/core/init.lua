@@ -107,6 +107,8 @@ autocmd("BufWritePost", {
   end,
 })
 
+--clipboard
+vim.api.nvim_set_option("clipboard", "unnamedplus")
 -------------------------------------- commands ------------------------------------------
 local new_cmd = vim.api.nvim_create_user_command
 
