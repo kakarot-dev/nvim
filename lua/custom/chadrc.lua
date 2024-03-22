@@ -2,8 +2,8 @@
 local M = {}
 
 M.ui = {
-  theme = "nightowl",
-  transparency = true,
+  theme = "ayu_dark",
+  --transparency = true,
   statusline = {
     theme = "default",
   },
