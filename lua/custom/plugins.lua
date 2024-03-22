@@ -160,7 +160,7 @@ local plugins = {
         ["go"] = { "gofumpt", "goimports-reviser", "golines" },
         ["sh"] = { "shfmt" },
         ["lua"] = { "stylua" },
-        ["*"] = { "codespell" },
+        --["*"] = { "codespell" },
       },
       notify_on_error = true,
       format_on_save = { timeout_ms = 500, lsp_fallback = true },

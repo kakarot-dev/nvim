@@ -2,7 +2,7 @@
 local M = {}
 
 M.ui = {
-  theme = "ayu_dark",
+  theme = "gatekeeper",
   --transparency = true,
   statusline = {
     theme = "default",
