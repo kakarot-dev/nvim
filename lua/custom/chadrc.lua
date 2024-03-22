@@ -1,7 +1,13 @@
 ---@type ChadrcConfig
 local M = {}
 
-M.ui = { theme = "dark_horizon" }
+M.ui = {
+  theme = "nightowl",
+  transparency = true,
+  statusline = {
+    theme = "default",
+  },
+}
 
 M.plugins = "custom.plugins"
 
