@@ -2,7 +2,7 @@
 local M = {}
 
 M.ui = {
-  theme = "falcon",
+  theme = "dark_horizon",
   --transparency = true,
   statusline = {
     theme = "default",
